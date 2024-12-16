@@ -1,0 +1,16 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "title": "A title",
+      "content": " Bla bla",
+      "created_at": "01/01/2022"
+    },
+    {
+      "id": "0b43",
+      "title": "A New Note",
+      "content": "Formula 1 Doha",
+      "created_at": "08/10/2024"
+    }
+  ]
+}
