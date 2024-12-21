@@ -1,7 +1,4 @@
 body {
   font-family: Roboto;
-  background-image: url('assets/images/pen.jpg');
-  background-size: cover;
-
-  background-position: center;
+  background-color: #f8f9fb;
 }
