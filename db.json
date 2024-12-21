@@ -1,18 +1,6 @@
 {
   "notes": [
     {
-      "id": "91b0",
-      "title": "Winter time",
-      "content": "Today is Winer Time, Shopify",
-      "created_at": "12/21/2024"
-    },
-    {
-      "id": "04f4",
-      "title": "Wednesday",
-      "content": "One week after we will meet",
-      "created_at": "12/21/2024"
-    },
-    {
       "id": "c457",
       "title": "JavaScript Let",
       "content": "Before ES6 (2015), JavaScript did not have Block Scope.\nJavaScript had Global Scope and Function Scope.\nES6 introduced the two new JavaScript keywords: let and const.\nThese two keywords provided Block Scope in JavaScript:",
