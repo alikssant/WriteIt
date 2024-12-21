@@ -11,6 +11,30 @@
       "title": "Wednesday",
       "content": "One week after we will meet",
       "created_at": "12/21/2024"
+    },
+    {
+      "id": "c457",
+      "title": "JavaScript Let",
+      "content": "Before ES6 (2015), JavaScript did not have Block Scope.\nJavaScript had Global Scope and Function Scope.\nES6 introduced the two new JavaScript keywords: let and const.\nThese two keywords provided Block Scope in JavaScript:",
+      "created_at": "12/21/2024"
+    },
+    {
+      "id": "3c7d",
+      "title": "JavaScript Objects",
+      "content": "Using an Object Literal\nUsing the new Keyword\nUsing an Object Constructor",
+      "created_at": "12/21/2024"
+    },
+    {
+      "id": "82db",
+      "title": "Mango",
+      "content": "A mango is an edible stone fruit produced by the tropical tree Mangifera indica. Price 1kg - $ 3.89",
+      "created_at": "12/21/2024"
+    },
+    {
+      "id": "6dc1",
+      "title": "Banana",
+      "content": "A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large treelike herbaceous flowering plants in the genus Musa.",
+      "created_at": "12/21/2024"
     }
   ]
 }
