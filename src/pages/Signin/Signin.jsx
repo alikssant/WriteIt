@@ -8,8 +8,8 @@ export function Signin() {
   const form = (
     <div className={s.formContainer}>
       <h2 className={s.title}>
-        Signin <br />
-        to access your team notes
+        Sign in <br />
+        to access your notes
       </h2>
       <form className={s.formGroup}>
         <Input placeholder={"Email"} />
