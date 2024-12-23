@@ -4,13 +4,21 @@ import { Link } from "react-router-dom";
 import s from "./style.module.css";
 import { AuthLayout } from "layouts/AuthLayout";
 import { useState } from "react";
+import { AuthAPI } from "api/auth";
+import { setUser } from "store/auth/auth-slice";
+import { useDispatch } from "react-redux";
 
 export function Signin() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const submit = (e) => {
+  const dispatch = useDispatch();
+  //const user = await AuthAPI.signin(email, password)
+
+  const submit = async (e) => {
     e.preventDefault();
     console.log("submited ", email, password);
+    const user = await AuthAPI.signin(email, password);
+    dispatch(setUser(user));
   };
   console.log(email, password);
   const form = (
