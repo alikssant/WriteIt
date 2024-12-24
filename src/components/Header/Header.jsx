@@ -1,7 +1,7 @@
 import { Logo } from "components/logo";
 import s from "./style.module.css";
 import logoSrc from "assets/images/logo.png";
-import { ButtonPrimary } from "components/ButtonPrimary/ButtonPrimary";
+
 import { useNavigate } from "react-router-dom";
 import { AuthAPI } from "api/auth";
 import { setUser } from "store/auth/auth-slice";
@@ -25,6 +25,7 @@ export function Header(props) {
           src={`https://api.dicebear.com/5.x/bottts/svg?seed=${user.email}`}
           style={{ width: 40 }}
           className="rounded-circle"
+          alt="avatar"
         />
         <div>Welcome, {user.email} </div>
         <Link to="#" onClick={signout}>
