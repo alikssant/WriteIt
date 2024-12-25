@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-  <a href="https://github.com/alikssant/WriteIt">
+  <a href="https://write-it2.vercel.app">
     <img src="public/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
@@ -11,10 +11,14 @@
     <br />
     <a href="https://write-it2.vercel.app"><strong>Demo »</strong></a>
     <br />
+
+  
  </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
+## To login use this email: [user1@gmail.com]
+## Password: [today11]  or alternatively you can sign up as new user with own email and pw
 
 ## The Project
 
@@ -81,3 +85,13 @@ Below is an example of how you can instruct your audience on installing and sett
    ```
 
 5. Visit http://localhost:3000 to use the app.
+
+
+<br/>
+
+
+## Future Enhancements 🔮
+
+
+- Link notes to user ID and update Firebase for the connected user's notes.
+- Each user will have personal notes
