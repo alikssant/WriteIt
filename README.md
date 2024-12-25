@@ -9,7 +9,7 @@
 <p align="center">
     WriteIt is a simple yet powerful writing application!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Demo »</strong></a>
+    <a href="https://write-it2.vercel.app"><strong>Demo »</strong></a>
     <br />
  </p>
 </div>
