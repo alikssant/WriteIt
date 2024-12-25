@@ -36,24 +36,30 @@ WriteIt is a simple yet powerful note-taking application where users can create,
 
 <br />
 
-<img src="src/assets/images/2.jpg" alt="2" width="500" height="400">
-<img src="src/assets/images/3.jpg" alt="3" width="510" height="400">
+<img src="src/assets/images/2.jpg" alt="2">
+
 
 ### Built With
 
-- [![Next][Next.js]][Next-url]
-- [![React][React.js]][React-url]
-- [![Vue][Vue.js]][Vue-url]
-- [![Angular][Angular.io]][Angular-url]
-- [![Svelte][Svelte.dev]][Svelte-url]
-
-- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-
+- React: The JavaScript library used for building the user interface.
+- Redux: State management for transferring data between components.
+- Firebase: Firebase Firestore is used for storing note data.
+- React-Router: For handling routing between different pages (e.g., login, notes).
+- Bootstrap: For styling and responsiveness.
+- React-Bootstrap-Icons: For incorporating Bootstrap icons.
+- Axios: Used for making API requests.
+- SweetAlert2: For displaying alerts and notifications.
+- React-Redux: To manage the state across the application.
+- json-server: For running a mock REST API in development.
+<br/>
 <!-- GETTING STARTED -->
+
+
+
 
 ### Installation
 
-\_Below is an example of how you can instruct your audience on installing and setting up your app.
+Below is an example of how you can instruct your audience on installing and setting up your app.
 
 1. Clone the repo
    ```sh
