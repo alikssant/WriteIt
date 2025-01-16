@@ -10,8 +10,8 @@ import { useDispatch } from "react-redux";
 import { toast } from "utils/sweet-alert";
 
 export function Signin() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("user1@gmail.com");
+  const [password, setPassword] = useState("today11");
   const dispatch = useDispatch();
   const navigate = useNavigate();
   //const user = await AuthAPI.signin(email, password)
@@ -36,10 +36,11 @@ export function Signin() {
         to access your notes
       </h2>
       <form onSubmit={submit} className={s.formGroup}>
-        <Input placeholder={"Email"} onTextChange={setEmail} />
+        <Input placeholder={"Email"} onTextChange={setEmail} value={email} />
         <Input
           placeholder={"Password"}
           type="password"
+          value={password}
           onTextChange={setPassword}
         />
         <ButtonPrimary type="submit" className={s.button}>
