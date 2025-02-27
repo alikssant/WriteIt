@@ -37,7 +37,7 @@ WriteIt is a simple yet powerful note-taking application where users can create,
 
 <br />
 
-<img src="src/assets/images/2.jpg" alt="2">
+
 
 ### Built With
 
